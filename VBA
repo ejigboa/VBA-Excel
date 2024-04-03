@@ -24,6 +24,16 @@ discountamrt = discount * curRate
 MsgBox (discountamrt)
 End Sub
 
+------
+
+Private Sub Discountamf()     -----The Private key will make the sub accessisble by just 1 sheet
+
+discfg = Round(ActiveCell.Value * 0.5, 2)
+MsgBox ("The discount is $" & discfg)
+
+End Sub
+
+
 #CREATING FUNCTIONS
 Function CalDis(discount As Currency)
 
