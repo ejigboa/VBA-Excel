@@ -16,4 +16,21 @@ File name .bas ot .txt
 Subroutings can affect workbooks and write values to cell, and perform calculations, but formula cant be used
 atl f11
 
+Sub Discountam()
+
+StoreSale = Range("E2").Value
+curRate = 0.1
+discountamrt = discount * curRate
+MsgBox (discountamrt)
+End Sub
+
 #CREATING FUNCTIONS
+Function CalDis(discount As Currency)
+
+CalDis = discount * 0.5
+
+End Function
+
+
+
+
