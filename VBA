@@ -1,0 +1,19 @@
+#To create a new code module
+Insert > Module
+
+#
+Sub ModuleName()
+MsgBox(" String ")
+End Sub
+
+#TO export Module
+right click the module
+export file
+pick the folder
+File name .bas ot .txt
+
+#CREATING SUBROUTING 
+Subroutings can affect workbooks and write values to cell, and perform calculations, but formula cant be used
+atl f11
+
+#CREATING FUNCTIONS
